@@ -45,3 +45,12 @@
 .input:focus {
     border-color: #bbb;
 }
+
+.delete-entry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    border: 0;
+    border-radius: 50%;
+}

@@ -51,6 +51,7 @@
     justify-content: center;
     align-items: center;
     width: 1.9rem;
+    background: transparent;
     color: red;
     border: 0;
     border-radius: 50%;

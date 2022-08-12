@@ -18,3 +18,7 @@
     padding: 10px 12px;
     border-bottom: 2px solid rgb(66, 66, 243);
 }
+
+.budget-planner td {
+    padding: 5px;
+}

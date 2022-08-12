@@ -23,10 +23,12 @@
     padding: 5px;
 }
 
-input, .delete-entry {
+.input, .delete-entry {
     font-size: 0.8rem;
     padding: 0 10px;
     margin: 0;
     height: 1.8rem;
     border-radius: 0.3rem;
 }
+
+.input{}

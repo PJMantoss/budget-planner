@@ -35,3 +35,7 @@
     border-radius: 0.3rem;
     outline: none;
 }
+
+.input:focus {
+    border-color: #bbb;
+}

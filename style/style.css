@@ -28,4 +28,5 @@ input, .delete-entry {
     padding: 0 10px;
     margin: 0;
     height: 1.8rem;
+    border-radius: 0.3rem;
 }

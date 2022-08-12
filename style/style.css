@@ -24,7 +24,8 @@
 }
 
 input, .delete-entry {
-    font-size: 13px;
+    font-size: 0.8rem;
     padding: 0 10px;
     margin: 0;
+    height: 1.8rem;
 }

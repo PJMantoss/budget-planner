@@ -12,3 +12,7 @@
 .budget-planner * {
     font-family: sans-serif;
 }
+
+.budget-planner th {
+    text-align: left;
+}

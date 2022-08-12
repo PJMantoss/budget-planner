@@ -22,3 +22,9 @@
 .budget-planner td {
     padding: 5px;
 }
+
+input, .delete-entry {
+    font-size: 13px;
+    padding: 0 10px;
+    margin: 0;
+}

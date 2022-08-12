@@ -28,9 +28,10 @@
     padding: 0 10px;
     margin: 0;
     height: 1.8rem;
-    border-radius: 0.3rem;
 }
 
 .input{
     border: 1px solid #ddd;
+    border-radius: 0.3rem;
+    outline: none;
 }

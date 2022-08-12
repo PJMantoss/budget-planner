@@ -8,3 +8,7 @@
     border-collapse: collapse;
     min-width: 750px;
 }
+
+.budget-planner * {
+    font-family: sans-serif;
+}

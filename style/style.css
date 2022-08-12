@@ -15,4 +15,6 @@
 
 .budget-planner th {
     text-align: left;
+    padding: 10px 12px;
+    border-bottom: 2px solid rgb(66, 66, 243);
 }

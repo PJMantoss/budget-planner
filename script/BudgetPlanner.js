@@ -98,6 +98,8 @@ export default class BudgetPlanner {
     //takes in an object param and adds new entry inside the table.
     addEntry(entry = {}){
         this.root.querySelector(".entries").insertAdjacentHTML("beforeend", BudgetPlanner.entryHtml());
+
+        const row = this.root.querySelector()
     }
 
     //Returns all entries (active rows) inside the table

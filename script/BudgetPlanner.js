@@ -47,7 +47,34 @@ export default class BudgetPlanner {
     }
 
     //returns html string for a row inside the html table
-    static entryHtml(){}
+    static entryHtml(){
+        return `
+            <tr>
+                <td>
+                    <input type="date" class="input input-date">
+                </td>
+                <td>
+                    <input 
+                        type="text" 
+                        class="input input-description"
+                        placeholder="Description"
+                    >
+                </td>
+                <td>
+                    <select name="" id="" class="input input-type">
+                        <option value="income">Income</option>
+                        <option value="expense">Expense</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="number" name="" class="input input-amount">
+                </td>
+                <td>
+                    <button type="submit" class="delete-entry">&#10005;</button>
+                </td>
+            </tr>
+        `;
+    }
 
     //Initial loading of the data
     load(){}

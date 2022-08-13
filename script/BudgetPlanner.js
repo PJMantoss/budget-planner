@@ -9,6 +9,9 @@ export default class BudgetPlanner {
         .addEventListener("click", () => {
             this.onNewEntryBtnClick();
         })
+
+        //Load initial data from localStorage
+        this.load();
     }
 
     //method that returns html for the actual table

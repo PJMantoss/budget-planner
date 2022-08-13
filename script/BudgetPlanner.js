@@ -83,6 +83,8 @@ export default class BudgetPlanner {
         for (const entry of entries){
             this.addEntry(entry);
         }
+
+        this.updateSummary();
     }
 
     //takes all the current rows in the table, 

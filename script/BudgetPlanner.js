@@ -23,4 +23,7 @@ export default class BudgetPlanner {
 
     //Returns all entries (active rows) inside the table
     getEntryRows(){}
+
+    //On click, function runs to add a new entry
+    onNewEntryBtnClick(){}
 }

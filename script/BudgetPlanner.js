@@ -79,7 +79,7 @@ export default class BudgetPlanner {
     //Initial loading of the data
     load(){
         const entries = JSON.parse(localStorage.getItem("budget-planner-entries") || "[]");
-        console.log(entries)
+        //console.log(entries)
         for (const entry of entries){
             this.addEntry(entry);
         }

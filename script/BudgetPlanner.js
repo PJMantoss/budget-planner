@@ -104,7 +104,9 @@ export default class BudgetPlanner {
     getEntryRows(){}
 
     //On click, function runs to add a new entry
-    onNewEntryBtnClick(){}
+    onNewEntryBtnClick(){
+        this.addEntry()
+    }
 
     //runs on clicking the delete button (X)
     onDeleteEntryBtnClick(e){}

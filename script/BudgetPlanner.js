@@ -17,4 +17,6 @@ export default class BudgetPlanner {
     //Takes all the data and save to localStorage
     //so that it persists when browser is refreshed
     save(){}
+
+    //takes in an object param and sdds new entry inside the table.
 }

@@ -6,4 +6,7 @@ export default class BudgetPlanner {
 
     //returns html string for a row inside the html table
     static entryHtml(){}
+
+    //Initial loading of the data
+    lod(){}
 }

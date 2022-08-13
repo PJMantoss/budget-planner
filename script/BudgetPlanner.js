@@ -15,7 +15,36 @@ export default class BudgetPlanner {
     }
 
     //method that returns html for the actual table
-    static html(){}
+    static html(){
+        return `
+        <table class="budget-planner">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Description</th>
+                <th>Amount</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody class="entries"></tbody>
+        <tbody>
+            <tr>
+                <td colspan="5" class="controls">
+                    <button type="submit" class="new-entry">New Entry</button>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5" class="summary">
+                    <strong>Total</strong>
+                    <span>$0.00</span>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+        `;
+    }
 
     //returns html string for a row inside the html table
     static entryHtml(){}
@@ -43,3 +72,30 @@ export default class BudgetPlanner {
     //runs on clicking the delete button (X)
     onDeleteEntryBtnClick(e){}
 }
+
+/*
+<tr>
+                <td>
+                    <input type="date" class="input input-date">
+                </td>
+                <td>
+                    <input 
+                        type="text" 
+                        class="input input-description"
+                        placeholder="Description"
+                    >
+                </td>
+                <td>
+                    <select name="" id="" class="input input-type">
+                        <option value="income">Income</option>
+                        <option value="expense">Expense</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="number" name="" class="input input-amount">
+                </td>
+                <td>
+                    <button type="submit" class="delete-entry">&#10005;</button>
+                </td>
+            </tr>
+*/

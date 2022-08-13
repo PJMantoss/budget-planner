@@ -12,9 +12,9 @@ export default class BudgetPlanner {
 
     //takes all the current rows in the table, 
     //calculate their total & display result in the bottom right
-
     updateSummary(){}
 
     //Takes all the data and save to localStorage
     //so that it persists when browser is refreshed
+    save(){}
 }

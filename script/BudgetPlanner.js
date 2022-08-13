@@ -19,5 +19,5 @@ export default class BudgetPlanner {
     save(){}
 
     //takes in an object param and adds new entry inside the table.
-    addEntry(){}
+    addEntry(entry = {}){}
 }

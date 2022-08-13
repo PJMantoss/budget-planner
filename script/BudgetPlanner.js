@@ -18,5 +18,6 @@ export default class BudgetPlanner {
     //so that it persists when browser is refreshed
     save(){}
 
-    //takes in an object param and sdds new entry inside the table.
+    //takes in an object param and adds new entry inside the table.
+    addEntry(){}
 }

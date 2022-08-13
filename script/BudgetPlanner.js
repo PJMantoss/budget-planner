@@ -2,6 +2,7 @@ export default class BudgetPlanner {
     constructor(querySelectorString){
         this.root = document.querySelector(querySelectorString);
         //console.log(this.root)
+        this.root.innerHTML = BudgetPlanner.html(); //take html string and inject into function
     }
 
     //method that returns html for the actual table

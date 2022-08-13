@@ -17,32 +17,32 @@ export default class BudgetPlanner {
     //method that returns html for the actual table
     static html(){
         return `
-        <table class="budget-planner">
-        <thead>
-            <tr>
-                <th>Date</th>
-                <th>Description</th>
-                <th>Amount</th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody class="entries"></tbody>
-        <tbody>
-            <tr>
-                <td colspan="5" class="controls">
-                    <button type="submit" class="new-entry">New Entry</button>
-                </td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td colspan="5" class="summary">
-                    <strong>Total</strong>
-                    <span>$0.00</span>
-                </td>
-            </tr>
-        </tfoot>
-    </table>
+            <table class="budget-planner">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Description</th>
+                        <th>Amount</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody class="entries"></tbody>
+                <tbody>
+                    <tr>
+                        <td colspan="5" class="controls">
+                            <button type="submit" class="new-entry">New Entry</button>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="5" class="summary">
+                            <strong>Total</strong>
+                            <span>$0.00</span>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
         `;
     }
 

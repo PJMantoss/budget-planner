@@ -1,3 +1,3 @@
-import BudgetPlanner from "./BudgetPlanner";
+import BudgetPlanner from "./BudgetPlanner.js";
 
 new BudgetPlanner('#app');

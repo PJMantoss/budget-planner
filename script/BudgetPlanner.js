@@ -1,6 +1,7 @@
 export default class BudgetPlanner {
     constructor(querySelectorString){
         this.root = document.querySelector(querySelectorString);
+        console.log(this.root)
     }
 
     //method that returns html for the actual table

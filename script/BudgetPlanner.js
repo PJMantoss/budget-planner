@@ -1,6 +1,6 @@
 export default class BudgetPlanner {
     constructor(querySelectorString){}
 
-    //returns the html for the table
+    //method that returns html for the actual table
     static html()
 }

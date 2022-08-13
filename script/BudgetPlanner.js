@@ -8,7 +8,7 @@ export default class BudgetPlanner {
     static entryHtml(){}
 
     //Initial loading of the data
-    lod(){}
+    load(){}
 
     //takes all the current rows in the table, 
     //calculate their total & display result in the bottom right

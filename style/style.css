@@ -60,3 +60,7 @@
 .delete-entry:hover{
     background: rgba(255, 0, 0, 0.1);
 }
+
+.controls, .summary {
+    text-align: right;
+}

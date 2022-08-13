@@ -96,7 +96,9 @@ export default class BudgetPlanner {
     save(){}
 
     //takes in an object param and adds new entry inside the table.
-    addEntry(entry = {}){}
+    addEntry(entry = {}){
+        this.root.querySelector(".entries").insertAdjacentHTML()
+    }
 
     //Returns all entries (active rows) inside the table
     getEntryRows(){}

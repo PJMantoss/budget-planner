@@ -6,7 +6,9 @@ export default class BudgetPlanner {
         this.root.innerHTML = BudgetPlanner.html(); 
 
         this.root.querySelector(".new-entry")
-        .addEventListener("click", () => {})
+        .addEventListener("click", () => {
+            this.onNewEntryBtnClick();
+        })
     }
 
     //method that returns html for the actual table

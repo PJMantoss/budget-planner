@@ -21,6 +21,6 @@ export default class BudgetPlanner {
     //takes in an object param and adds new entry inside the table.
     addEntry(entry = {}){}
 
-    //
-    getNewEntry(){}
+    //Returns all entries (active rows) inside the table
+    getEntryRows(){}
 }

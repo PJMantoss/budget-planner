@@ -95,7 +95,7 @@ export default class BudgetPlanner {
     //so that it persists when browser is refreshed
     save(){
         //take all rows & convert to an array of objects to be saved
-        
+
     }
 
     //takes in an object param and adds new entry inside the table.
@@ -120,7 +120,9 @@ export default class BudgetPlanner {
     }
 
     //Returns all entries (active rows) inside the table
-    getEntryRows(){}
+    getEntryRows(){
+        return Array.from(this.root.querySelectorAll(".entries"))
+    }
 
     //On click, function runs to add a new entry
     onNewEntryBtnClick(){

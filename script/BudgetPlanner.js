@@ -100,6 +100,8 @@ export default class BudgetPlanner {
         this.root.querySelector(".entries").insertAdjacentHTML("beforeend", BudgetPlanner.entryHtml());
 
         const row = this.root.querySelector(".entries tr:last-of-type");
+
+        row.querySelector().value = entry.date
     }
 
     //Returns all entries (active rows) inside the table

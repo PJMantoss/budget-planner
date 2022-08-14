@@ -111,6 +111,7 @@ export default class BudgetPlanner {
         })
 
         //call the save() method to commit changes to the localStorage
+        row.querySelectorAll("input").forEach(input => {})
     }
 
     //Returns all entries (active rows) inside the table

@@ -103,7 +103,7 @@ export default class BudgetPlanner {
 
         row.querySelector(".input-date").value = entry.date || new Date().toISOString().replace(/T.*/, "");
         row.querySelector(".input-description").value = entry.description || "";
-        row.querySelector(".input-type").value = entry.type || "";
+        row.querySelector(".input-type").value = entry.type || "income";
     }
 
     //Returns all entries (active rows) inside the table

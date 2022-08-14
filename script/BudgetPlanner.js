@@ -121,7 +121,7 @@ export default class BudgetPlanner {
 
     //Returns all entries (active rows) inside the table
     getEntryRows(){
-        return Array.from(this.root.querySelectorAll(".entries"))
+        return Array.from(this.root.querySelectorAll(".entries tr"))
     }
 
     //On click, function runs to add a new entry

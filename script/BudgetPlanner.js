@@ -102,6 +102,7 @@ export default class BudgetPlanner {
         const row = this.root.querySelector(".entries tr:last-of-type");
 
         row.querySelector(".input-date").value = entry.date || new Date().toISOString().replace(/T.*/, "");
+        row.querySelector(".input-description").value = entry.description || "";
     }
 
     //Returns all entries (active rows) inside the table

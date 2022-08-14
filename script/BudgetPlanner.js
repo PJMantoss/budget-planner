@@ -105,7 +105,7 @@ export default class BudgetPlanner {
         row.querySelector(".input-description").value = entry.description || "";
         row.querySelector(".input-type").value = entry.type || "income";
         row.querySelector(".input-amount").value = entry.amount || 0;
-        row.querySelector(".delete-entry").addEventListener("click", () => {
+        row.querySelector(".delete-entry").addEventListener("click", e => {
             this.onDeleteEntryBtnClick(e);
         })
     }

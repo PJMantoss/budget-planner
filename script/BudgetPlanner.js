@@ -116,7 +116,9 @@ export default class BudgetPlanner {
     }
 
     //runs on clicking the delete button (X)
-    onDeleteEntryBtnClick(e){}
+    onDeleteEntryBtnClick(e){
+        console.log("Entry deleted")
+    }
 }
 
 /*

@@ -104,7 +104,7 @@ export default class BudgetPlanner {
         row.querySelector(".input-date").value = entry.date || new Date().toISOString().replace(/T.*/, "");
         row.querySelector(".input-description").value = entry.description || "";
         row.querySelector(".input-type").value = entry.type || "income";
-        row.querySelector(".input-amount").value = entry.amount || "income";
+        row.querySelector(".input-amount").value = entry.amount || 0;
     }
 
     //Returns all entries (active rows) inside the table

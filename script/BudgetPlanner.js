@@ -95,7 +95,9 @@ export default class BudgetPlanner {
     //so that it persists when browser is refreshed
     save(){
         //take all rows & convert to an array of objects to be saved
-        const data = this.getEntryRows().map()
+        const data = this.getEntryRows().map(row => {
+            return {}
+        })
     }
 
     //takes in an object param and adds new entry inside the table.

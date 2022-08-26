@@ -102,7 +102,9 @@ export default class BudgetPlanner {
                 type: row.querySelector(".input-type").value,
                 amount: parseFloat(row.querySelector(".input-amount").value)
             }
-        })
+        });
+
+        localStorage.setItem()
     }
 
     //takes in an object param and adds new entry inside the table.

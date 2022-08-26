@@ -99,6 +99,7 @@ export default class BudgetPlanner {
             return {
                 date: row.querySelector(".input-date").value,
                 description: row.querySelector(".input-description").value,
+                type: row.querySelector(".input-type").value,
             }
         })
     }

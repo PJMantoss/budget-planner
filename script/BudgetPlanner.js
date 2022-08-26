@@ -104,7 +104,7 @@ export default class BudgetPlanner {
             }
         });
 
-        localStorage.setItem("", JSON.stringify(data))
+        localStorage.setItem("budget-planner-entries", JSON.stringify(data))
     }
 
     //takes in an object param and adds new entry inside the table.

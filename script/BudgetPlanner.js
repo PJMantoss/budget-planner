@@ -79,7 +79,7 @@ export default class BudgetPlanner {
     //Initial loading of the data
     load(){
         const entries = JSON.parse(localStorage.getItem("budget-planner-entries") || "[]");
-        //console.log(entries)
+        console.log(entries)
         for (const entry of entries){
             this.addEntry(entry);
         }
@@ -95,7 +95,7 @@ export default class BudgetPlanner {
     //so that it persists when browser is refreshed
     save(){
         //take all rows & convert to an array of objects to be saved
-        console.log(this.getEntryRows())
+        const rows = this.getEntryRows()
     }
 
     //takes in an object param and adds new entry inside the table.

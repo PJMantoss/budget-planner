@@ -97,7 +97,8 @@ export default class BudgetPlanner {
         //take all rows & convert to an array of objects to be saved
         const data = this.getEntryRows().map(row => {
             return {
-                date: row.querySelector(".input-date").value
+                date: row.querySelector(".input-date").value,
+                description: row.querySelector(".input-description").value,
             }
         })
     }

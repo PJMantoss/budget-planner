@@ -142,6 +142,7 @@ export default class BudgetPlanner {
     //runs on clicking the delete button (X)
     onDeleteEntryBtnClick(e){
         e.target.closest("tr").remove();
+        this.save();
     }
 }
 

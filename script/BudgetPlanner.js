@@ -99,6 +99,8 @@ export default class BudgetPlanner {
         return total + (modifier * amount);
         }, 0);
 
+        console.log(total);
+
     }
 
     //Takes all the data and save to localStorage

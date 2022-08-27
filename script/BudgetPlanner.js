@@ -102,6 +102,7 @@ export default class BudgetPlanner {
         // console.log(total);
 
         // add Dollar sign
+        const totalFormatted = new Intl.NumberFormat()
 
     }
 

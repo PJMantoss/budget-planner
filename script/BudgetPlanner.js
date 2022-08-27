@@ -99,7 +99,9 @@ export default class BudgetPlanner {
         return total + (modifier * amount);
         }, 0);
 
-        console.log(total);
+        // console.log(total);
+
+        // add Dollar sign
 
     }
 

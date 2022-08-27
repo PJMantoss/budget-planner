@@ -92,6 +92,8 @@ export default class BudgetPlanner {
     updateSummary(){
         // take every single row and convert to total
         const total = this.getEntryRows().reduce((total, row) => {}, 0);
+
+        const amount = row.querySelector(".input-amount").value;
     }
 
     //Takes all the data and save to localStorage

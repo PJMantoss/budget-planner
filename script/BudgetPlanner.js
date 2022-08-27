@@ -96,6 +96,8 @@ export default class BudgetPlanner {
         const amount = row.querySelector(".input-amount").value;
         const isExpense = row.querySelector(".input-type").value === "expense";
         const modifier = isExpense ? -1 : 1;
+
+        return total + (modifier * amount)
     }
 
     //Takes all the data and save to localStorage

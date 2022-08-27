@@ -91,13 +91,14 @@ export default class BudgetPlanner {
     //calculate their total & display result in the bottom right
     updateSummary(){
         // take every single row and convert to total
-        const total = this.getEntryRows().reduce((total, row) => {}, 0);
+        const total = this.getEntryRows().reduce((total, row) => {
+            const amount = row.querySelector(".input-amount").value;
+            const isExpense = row.querySelector(".input-type").value === "expense";
+            const modifier = isExpense ? -1 : 1;
 
-        const amount = row.querySelector(".input-amount").value;
-        const isExpense = row.querySelector(".input-type").value === "expense";
-        const modifier = isExpense ? -1 : 1;
+        return total + (modifier * amount);
+        }, 0);
 
-        return total + (modifier * amount)
     }
 
     //Takes all the data and save to localStorage

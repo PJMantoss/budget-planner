@@ -90,6 +90,7 @@ export default class BudgetPlanner {
     //takes all the current rows in the table, 
     //calculate their total & display result in the bottom right
     updateSummary(){
+        // take every single row and convert to total
         const total = this.getEntryRows()
     }
 

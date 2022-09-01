@@ -82,3 +82,8 @@ footer > span {
     font-size: 12px;
     color: white
 }
+
+footer > span > a {
+    text-decoration: none;
+    color: yellow;
+}

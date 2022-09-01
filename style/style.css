@@ -82,6 +82,11 @@ footer > span {
     color: black;
 }
 
+footer > img {
+    width: 20px;
+    padding: 10px;
+}
+
 span > a {
     text-decoration: none;
     color: green;

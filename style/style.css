@@ -77,7 +77,6 @@ body {
 
 /* Footer styling */
 footer {
-    max-width: 40vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -93,6 +92,7 @@ footer span {
 
 footer img {
     width: 30px;
+    margin: 0 3px;
 }
 
 span a {

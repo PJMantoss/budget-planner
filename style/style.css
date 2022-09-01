@@ -79,7 +79,7 @@ body {
 footer {
     max-width: 30vw;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     margin-top: 50px;
 }

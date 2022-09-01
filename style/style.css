@@ -64,3 +64,12 @@
 .controls, .summary {
     text-align: right;
 }
+
+/* Footer styling */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}

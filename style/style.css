@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .app-div{
     display: flex;
     justify-content: center;

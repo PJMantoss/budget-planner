@@ -77,7 +77,7 @@ body {
 
 /* Footer styling */
 footer {
-    max-width: 30vw;
+    max-width: 40vw;
     display: flex;
     justify-content: space-between;
     align-items: center;

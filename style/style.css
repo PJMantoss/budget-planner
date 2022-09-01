@@ -75,18 +75,18 @@ footer {
     margin-top: 50px;
 }
 
-footer > span {
+footer span {
     font-family: 'ZCOOL XiaoWei', serif;
     font-weight: 400;
     font-size: 12px;
     color: black;
 }
 
-footer > img {
-    width: 50px;
+footer img {
+    width: 30px;
 }
 
-span > a {
+span a {
     text-decoration: none;
     color: green;
 }
